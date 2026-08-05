@@ -44,12 +44,12 @@
 
 # Hi, I'm Quoc Huy Dinh (Ryan) 👋
 
-AI & Computer Science student at the University of Technology Sydney (UTS), building end-to-end ML systems — from transformers written from scratch to full-stack AI products.
+AI & Computer Science student at the University of Technology Sydney (UTS), building end-to-end ML systems, from transformers written from scratch to full-stack AI products.
 
 - 📍 Sydney, NSW, Australia
-- 🎓 Bachelor of Artificial Intelligence, UTS (Jul 2025 – Present) · Dean's List 2026 (FEIT)
-- 🔬 Research Assistant at UTS — Vision-Language Models & GANs
-- 💼 Open to internship, casual, part-time, contract, and graduate roles in ML/AI, Software Engineering, Data Engineering, or Data Analytics — Sydney or remote AU
+- 🎓 Bachelor of Artificial Intelligence, UTS (Jul 2025 - Present) · Dean's List 2026 (FEIT)
+- 🔬 Research Assistant at UTS, working on Vision-Language Models & GANs
+- 💼 Open to internship, casual, part-time, contract, and graduate roles in ML/AI, Software Engineering, Data Engineering, or Data Analytics (Sydney or remote AU)
 - 📧 quochuy.dinh@student.uts.edu.au · 📱 0410 525 293
 - 🌐 [Portfolio](https://cv-website-lemon.vercel.app) · [LinkedIn](https://linkedin.com/in/quochuy-dinh) · [Hugging Face](https://huggingface.co/Huydinh1205) · [CV (PDF)](https://cv-website-lemon.vercel.app/Quoc_Huy_Dinh_CV.pdf)
 
@@ -57,11 +57,11 @@ AI & Computer Science student at the University of Technology Sydney (UTS), buil
 
 ## About Me
 
-I'm an AI/CS student with hands-on experience building AI-powered systems, deep learning models from scratch, Python data pipelines, and full-stack web apps. I like taking work end to end — from research and data preprocessing through to shipped products. Currently leading the ML side of a computer-vision research project targeting international publication, and preparing a solo research submission for DICTA 2026.
+I'm an AI/CS student with hands-on experience building AI-powered systems, deep learning models from scratch, Python data pipelines, and full-stack web apps. I like taking work end to end, from research and data preprocessing through to shipped products. Currently leading the ML side of a computer-vision research project targeting international publication, and preparing a solo research submission for DICTA 2026.
 
 ## 🔭 Current Role
 
-**Research Assistant** — University of Technology Sydney, Sydney NSW (Nov 2025 – Present)
+**Research Assistant**, University of Technology Sydney, Sydney NSW (Nov 2025 - Present)
 
 - Cross-area role spanning data analysis, data preprocessing, and backend server modules for research projects
 - Cleaned and analysed noisy multi-source OCR datasets; ran iterative model experiments; translated findings into reproducible workflows
@@ -73,9 +73,9 @@ I'm an AI/CS student with hands-on experience building AI-powered systems, deep 
 
 | School | Degree | Period | Notes |
 |---|---|---|---|
-| University of Technology Sydney (UTS) | B. Artificial Intelligence | Jul 2025 – Present | Dean's List 2026 · Database Fundamentals 100/100 |
-| Ho Chi Minh City University of Technology (HCMUT) | B. Computer Science | Aug 2023 – Jun 2025 | GPA 3.6/4.0 · Data Structures & Algorithms (C++): A |
-| Le Hong Phong High School for the Gifted | Specialised Physics Class | 2020 – 2023 | Top-ranked STEM specialised school, Ho Chi Minh City |
+| University of Technology Sydney (UTS) | B. Artificial Intelligence | Jul 2025 - Present | Dean's List 2026 · Database Fundamentals 100/100 |
+| Ho Chi Minh City University of Technology (HCMUT) | B. Computer Science | Aug 2023 - Jun 2025 | GPA 3.6/4.0 · Data Structures & Algorithms (C++): A |
+| Le Hong Phong High School for the Gifted | Specialised Physics Class | 2020 - 2023 | Top-ranked STEM specialised school, Ho Chi Minh City |
 
 ## 🛠️ Skills
 
@@ -93,26 +93,26 @@ I'm an AI/CS student with hands-on experience building AI-powered systems, deep 
 
 ## 🚀 Featured Projects
 
-- **[Transformer Chatbot from Scratch](https://github.com/Huydinh1205/LSTM-chatbot)** — Decoder-only transformer built from scratch in PyTorch + Lightning (custom tokenizer, causal masking, temperature sampling). Live in production, served from Hugging Face Spaces.
-- **AI-Powered Coffee Shop Manager Dashboard** — End-to-end AI briefing system with a single LangChain pipeline (Q&A, revenue summarisation, inventory forecasting, scheduled reports), Redis caching, Dockerised.
-- **[CurricuLLM — Parent-Teacher AI Platform](https://github.com/VAHPEM/AI_Parent-Teacher_Bridge)** — Cambridge EduX Hackathon 2026. LLM pipeline auto-generating curriculum reports, parent-facing AI chat, real-time multilingual translation. TypeScript/React + FastAPI/PostgreSQL.
-- **[Personal Portfolio Site](https://github.com/Huydinh1205/cv-website)** — This site. Next.js 16 + TypeScript + Tailwind CSS v4 + Framer Motion, with an embedded transformer chatbot served from a separate FastAPI service. Live at [cv-website-lemon.vercel.app](https://cv-website-lemon.vercel.app).
-- **Smart Parking & Intelligent Traffic Management (ALPR)** — ML team lead (3 members). Full pipeline: YOLOv11-OBB detection, PARSEQ OCR, ByteTrack, Zero-DCE++ low-light enhancement. Benchmarked across CCPD2020 subsets. Targeting international publication, 2026.
-- **Hybrid CV + VLM for Tactical Badminton Analysis** — Solo research, target DICTA 2026. Combines classical CV (court homography, tracking, shot detection) with a VLM (shot type, handedness) plus a RAG interface (Gemini 2.5 Pro + FAISS).
-- **[Game Automation & Streaming Tool](https://github.com/Huydinh1205/dota2)** — TCP + OBS WebSocket + REST API backend for real-time game automation. Also see the [TCP server/client](https://github.com/Huydinh1205/tcp_server_client).
-- **[E-Commerce Web App](https://github.com/Huydinh1205/Supermarket-main)** — Full-stack solo project: product listing, cart, checkout, JWT auth, normalised PostgreSQL schema (3NF).
-- **[Game Telemetry Data Analysis](https://github.com/Huydinh1205/analysis_dota2)** — EDA and statistical analysis of competitive-game telemetry.
-- **[OCR Preprocessing Pipeline](https://github.com/Huydinh1205/paddleOCR_comerdata)** — Adaptive thresholding, denoising, deskewing, contrast enhancement, benchmarked against PaddleOCR accuracy.
-- **[Frontend Projects](https://github.com/Huydinh1205/tic-tac-toe)** — React Tic-Tac-Toe (with undo, deployed on Netlify), Music Player, Weather App, plus HTML/CSS/JS UI clones.
+- **[Transformer Chatbot from Scratch](https://github.com/Huydinh1205/LSTM-chatbot)**: Decoder-only transformer built from scratch in PyTorch + Lightning (custom tokenizer, causal masking, temperature sampling). Live in production, served from Hugging Face Spaces.
+- **AI-Powered Coffee Shop Manager Dashboard**: End-to-end AI briefing system with a single LangChain pipeline (Q&A, revenue summarisation, inventory forecasting, scheduled reports), Redis caching, Dockerised.
+- **[CurricuLLM: Parent-Teacher AI Platform](https://github.com/VAHPEM/AI_Parent-Teacher_Bridge)**: Cambridge EduX Hackathon 2026. LLM pipeline auto-generating curriculum reports, parent-facing AI chat, real-time multilingual translation. TypeScript/React + FastAPI/PostgreSQL.
+- **[Personal Portfolio Site](https://github.com/Huydinh1205/cv-website)**: This site. Next.js 16 + TypeScript + Tailwind CSS v4 + Framer Motion, with an embedded transformer chatbot served from a separate FastAPI service. Live at [cv-website-lemon.vercel.app](https://cv-website-lemon.vercel.app).
+- **Smart Parking & Intelligent Traffic Management (ALPR)**: ML team lead (3 members). Full pipeline with YOLOv11-OBB detection, PARSEQ OCR, ByteTrack, Zero-DCE++ low-light enhancement. Benchmarked across CCPD2020 subsets. Targeting international publication, 2026.
+- **Hybrid CV + VLM for Tactical Badminton Analysis**: Solo research, target DICTA 2026. Combines classical CV (court homography, tracking, shot detection) with a VLM (shot type, handedness) plus a RAG interface (Gemini 2.5 Pro + FAISS).
+- **[Game Automation & Streaming Tool](https://github.com/Huydinh1205/dota2)**: TCP + OBS WebSocket + REST API backend for real-time game automation. Also see the [TCP server/client](https://github.com/Huydinh1205/tcp_server_client).
+- **[E-Commerce Web App](https://github.com/Huydinh1205/Supermarket-main)**: Full-stack solo project with product listing, cart, checkout, JWT auth, normalised PostgreSQL schema (3NF).
+- **[Game Telemetry Data Analysis](https://github.com/Huydinh1205/analysis_dota2)**: EDA and statistical analysis of competitive-game telemetry.
+- **[OCR Preprocessing Pipeline](https://github.com/Huydinh1205/paddleOCR_comerdata)**: Adaptive thresholding, denoising, deskewing, contrast enhancement, benchmarked against PaddleOCR accuracy.
+- **[Frontend Projects](https://github.com/Huydinh1205/tic-tac-toe)**: React Tic-Tac-Toe (with undo, deployed on Netlify), Music Player, Weather App, plus HTML/CSS/JS UI clones.
 
 ## 🔬 Research
 
-**Research statement:** My research sits at the intersection of foundation models and structured perception — I'm interested in cheap, training-free recipes that turn generalist vision-language models into reliable specialists for spatial reasoning (sports tactics, traffic scenes, multi-agent games). I prefer rigour-through-experiment-design over rigour-through-gradient-descent, with careful ablations, oracle ceilings, and inter-annotator agreement as core tools.
+**Research statement:** My research sits at the intersection of foundation models and structured perception. I'm interested in cheap, training-free recipes that turn generalist vision-language models into reliable specialists for spatial reasoning (sports tactics, traffic scenes, multi-agent games). I prefer rigour-through-experiment-design over rigour-through-gradient-descent, with careful ablations, oracle ceilings, and inter-annotator agreement as core tools.
 
 **In preparation:**
 
-- *Hybrid CV + VLM for Tactical Badminton Analysis from Single-Camera Broadcast Video* — target DICTA 2026 (Sydney)
-- *Robust Automatic License Plate Recognition Across Adverse Conditions* — target: international vision venue (with Moniz Kumar Senthilkumar, Xuan Nguyen)
+- *Hybrid CV + VLM for Tactical Badminton Analysis from Single-Camera Broadcast Video*, target DICTA 2026 (Sydney)
+- *Robust Automatic License Plate Recognition Across Adverse Conditions*, target international vision venue (with Moniz Kumar Senthilkumar, Xuan Nguyen)
 - *Set-of-Mark Visual Prompting for Tactical Understanding in Soccer Broadcast* (exploratory)
 - *Dynamic Graph Neural Networks for Real-Time Win Prediction in Esports* (exploratory)
 
@@ -120,11 +120,11 @@ I'm an AI/CS student with hands-on experience building AI-powered systems, deep 
 
 ## 🏆 Certifications & Awards
 
-- **Dean's List 2026** — UTS Faculty of Engineering & IT (faculty level, university)
-- **WIL to Work Certificate of Completion** — UTS Careers, 2026
-- **Full-Stack Web Development** — CoderSchool, 2024
-- **Second Prize, Physics Olympiad** — Ho Chi Minh City Dept. of Education, 2022 (city level, high school)
-- **Second Prize, Scientific Research Contest** — Ho Chi Minh City Dept. of Education, 2018 (city level, middle school)
+- **Dean's List 2026**: UTS Faculty of Engineering & IT (faculty level, university)
+- **WIL to Work Certificate of Completion**: UTS Careers, 2026
+- **Full-Stack Web Development**: CoderSchool, 2024
+- **Second Prize, Physics Olympiad**: Ho Chi Minh City Dept. of Education, 2022 (city level, high school)
+- **Second Prize, Scientific Research Contest**: Ho Chi Minh City Dept. of Education, 2018 (city level, middle school)
 
 ## 📫 Contact
 
@@ -137,4 +137,4 @@ I'm an AI/CS student with hands-on experience building AI-powered systems, deep 
 
 ---
 
-<sub>The card above is generated from a photo by `scripts/build_ascii_card.py` (GrabCut cutout → CLAHE → character-density mapping). Re-run it with `python scripts/build_ascii_card.py your-photo.jpg` to refresh the portrait or edit the info panel.</sub>
+<sub>The card above is generated from a photo by `scripts/build_ascii_card.py` (GrabCut cutout -> CLAHE -> character-density mapping). Re-run it with `python scripts/build_ascii_card.py your-photo.jpg` to refresh the portrait or edit the info panel.</sub>
