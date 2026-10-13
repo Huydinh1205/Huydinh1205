@@ -116,7 +116,7 @@ Multi-page Next.js portfolio with resume, projects and research pages, a Resend 
 <summary><b>More projects</b></summary>
 <br>
 
-- **[Agent Market](https://github.com/Huydinh1205/mcp_website)**: OpenAI WebMCP Challenge, team of 2. Buyer and seller browser agents negotiate price, quantity and coupons through WebMCP tools; Spring Boot state machine, 55 + 16 tests ([live demo](https://mcp-website-chi.vercel.app/)).
+- **[Agent Market](https://github.com/Huydinh1205/mcp_website)**: OpenAI WebMCP Challenge, team of 2. Buyer and seller browser agents negotiate price, quantity and coupons through WebMCP tools; Spring Boot state machine, 55 + 16 tests ([demo video](https://youtu.be/Dmi2gS94qh4) · [live site](https://mcp-website-chi.vercel.app/)).
 - **[Vegetation Stress Early Warning](https://github.com/Huydinh1205/plant_stress)**: Sentinel-2 NDVI/NDRE pipeline over Griffith, NSW with a Random Forest at 0.996 test accuracy ([live app on Hugging Face](https://huggingface.co/spaces/Huydinh1205/vegetation-stress-early-warning)).
 - **[CurricuLLM](https://github.com/VAHPEM/AI_Parent-Teacher_Bridge)**: Cambridge EduX Hackathon 2026, team of 4. LLM-generated curriculum reports, parent-facing AI chat and live translation (React, FastAPI, PostgreSQL).
 - **[E-Commerce Web App](https://github.com/Huydinh1205/Supermarket-main)**: solo full-stack shop with JWT auth, bcrypt and a 3NF PostgreSQL schema.
