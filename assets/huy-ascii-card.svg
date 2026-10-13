@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="921" height="496" viewBox="0 0 921 496" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace'>
 <rect x="0.5" y="0.5" width="920" height="495" rx="10" fill="#0d1117" stroke="#30363d"/>
-<g font-size="12.0" fill="#b9c2cc" xml:space="preserve">
+<g font-size="12.0" fill="#b9c2cc">
 <text x="22" y="34.0">                       tGff0C</text>
 <text x="22" y="48.0">               fGCLL1tftGGLfCLCG0CCC</text>
 <text x="22" y="62.0">            LGGtfG008@@@@@@@@@@@@@@@@@@C</text>
@@ -34,73 +34,82 @@
 <text x="22" y="454.0">@@@@8@@80G000000008G8888@f0G@880800GG800GCCC0@@@@8</text>
 <text x="22" y="468.0">888800@@@80GGGGG08880Cf0@CLt@00888G8GGCCC0@@@8GCGL</text>
 </g>
-<g font-size="12.0" xml:space="preserve">
+<g font-size="12.0">
 <text x="410.0" y="34.0" fill="#f0883e" font-weight="bold">ryan@huy</text>
 <line x1="474.8" y1="30.0" x2="899.6" y2="30.0" stroke="#30363d"/>
 <text x="410.0" y="48.0" fill="#ff7b72">Host:</text>
 <text x="582.8" y="48.0" fill="#c9d1d9">University of Technology Sydney</text>
 <line x1="453.2" y1="44.5" x2="578.5" y2="44.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
 <text x="410.0" y="62.0" fill="#ff7b72">Kernel:</text>
-<text x="582.8" y="62.0" fill="#c9d1d9">BSc Artificial Intelligence (Jul 2025 - now)</text>
+<text x="582.8" y="62.0" fill="#c9d1d9">B. Artificial Intelligence (2025 - 2027)</text>
 <line x1="467.6" y1="58.5" x2="578.5" y2="58.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
 <text x="410.0" y="76.0" fill="#ff7b72">Prev:</text>
-<text x="582.8" y="76.0" fill="#c9d1d9">BSc Computer Science, HCMUT - GPA 3.6/4.0</text>
+<text x="582.8" y="76.0" fill="#c9d1d9">B. Computer Science, HCMUT - GPA 3.6/4.0</text>
 <line x1="453.2" y1="72.5" x2="578.5" y2="72.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="90.0" fill="#ff7b72">Role:</text>
-<text x="582.8" y="90.0" fill="#c9d1d9">Research Assistant - VLM / GAN</text>
-<line x1="453.2" y1="86.5" x2="578.5" y2="86.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="104.0" fill="#ff7b72">Awards:</text>
-<text x="582.8" y="104.0" fill="#c9d1d9">FEIT Dean's List 2026</text>
-<line x1="467.6" y1="100.5" x2="578.5" y2="100.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="118.0" fill="#ff7b72">Location:</text>
-<text x="582.8" y="118.0" fill="#c9d1d9">Sydney, NSW, Australia</text>
-<line x1="482.0" y1="114.5" x2="578.5" y2="114.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="132.0" fill="#ff7b72">Status:</text>
-<text x="582.8" y="132.0" fill="#c9d1d9">Open to internships and graduate roles</text>
+<text x="410.0" y="90.0" fill="#ff7b72">Uptime:</text>
+<text x="582.8" y="90.0" fill="#c9d1d9">WAM 88.88 - GPA 6.75/7.0</text>
+<line x1="467.6" y1="86.5" x2="578.5" y2="86.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="104.0" fill="#ff7b72">Role:</text>
+<text x="582.8" y="104.0" fill="#c9d1d9">Data Engineer @ Nallawilli Bunjil</text>
+<line x1="453.2" y1="100.5" x2="578.5" y2="100.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="118.0" fill="#ff7b72">Next:</text>
+<text x="582.8" y="118.0" fill="#c9d1d9">CV Research Intern @ CSIRO (Nov 2026)</text>
+<line x1="453.2" y1="114.5" x2="578.5" y2="114.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="132.0" fill="#ff7b72">Awards:</text>
+<text x="582.8" y="132.0" fill="#c9d1d9">FEIT Dean's List 2026</text>
 <line x1="467.6" y1="128.5" x2="578.5" y2="128.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="160.0" fill="#f0883e" font-weight="bold">Stack</text>
-<line x1="453.2" y1="156.0" x2="899.6" y2="156.0" stroke="#30363d"/>
-<text x="410.0" y="174.0" fill="#ff7b72">Languages.Programming:</text>
-<text x="582.8" y="174.0" fill="#c9d1d9">Python, C++, TypeScript, JavaScript</text>
-<text x="410.0" y="188.0" fill="#ff7b72">Languages.Markup:</text>
-<text x="582.8" y="188.0" fill="#c9d1d9">HTML, CSS, SQL, Markdown</text>
-<line x1="539.6" y1="184.5" x2="578.5" y2="184.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="202.0" fill="#ff7b72">Languages.Real:</text>
-<text x="582.8" y="202.0" fill="#c9d1d9">Vietnamese, English</text>
-<line x1="525.2" y1="198.5" x2="578.5" y2="198.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="216.0" fill="#ff7b72">ML.Frameworks:</text>
-<text x="582.8" y="216.0" fill="#c9d1d9">PyTorch, Lightning, LangChain, YOLO</text>
-<line x1="518.0" y1="212.5" x2="578.5" y2="212.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="230.0" fill="#ff7b72">Web:</text>
-<text x="582.8" y="230.0" fill="#c9d1d9">Next.js, React, FastAPI, Flask, Express</text>
-<line x1="446.0" y1="226.5" x2="578.5" y2="226.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="244.0" fill="#ff7b72">Data:</text>
-<text x="582.8" y="244.0" fill="#c9d1d9">Pandas, NumPy, PostgreSQL, Redis, Docker</text>
-<line x1="453.2" y1="240.5" x2="578.5" y2="240.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="146.0" fill="#ff7b72">Paper:</text>
+<text x="582.8" y="146.0" fill="#c9d1d9">RallyVLM, DICTA 2026 (under review)</text>
+<line x1="460.4" y1="142.5" x2="578.5" y2="142.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="160.0" fill="#ff7b72">Location:</text>
+<text x="582.8" y="160.0" fill="#c9d1d9">Sydney, NSW, Australia</text>
+<line x1="482.0" y1="156.5" x2="578.5" y2="156.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="174.0" fill="#ff7b72">Status:</text>
+<text x="582.8" y="174.0" fill="#c9d1d9">Open to internships and graduate roles</text>
+<line x1="467.6" y1="170.5" x2="578.5" y2="170.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="202.0" fill="#f0883e" font-weight="bold">Stack</text>
+<line x1="453.2" y1="198.0" x2="899.6" y2="198.0" stroke="#30363d"/>
+<text x="410.0" y="216.0" fill="#ff7b72">Languages.Programming:</text>
+<text x="582.8" y="216.0" fill="#c9d1d9">Python, C++, TypeScript, Java, SQL</text>
+<text x="410.0" y="230.0" fill="#ff7b72">Languages.Real:</text>
+<text x="582.8" y="230.0" fill="#c9d1d9">Vietnamese, English</text>
+<line x1="525.2" y1="226.5" x2="578.5" y2="226.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="244.0" fill="#ff7b72">ML.Frameworks:</text>
+<text x="582.8" y="244.0" fill="#c9d1d9">PyTorch, Lightning, LangChain, YOLO</text>
+<line x1="518.0" y1="240.5" x2="578.5" y2="240.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
 <text x="410.0" y="258.0" fill="#ff7b72">Research:</text>
 <text x="582.8" y="258.0" fill="#c9d1d9">VLM, RAG, GAN, Robust CV, Dynamic GNN</text>
 <line x1="482.0" y1="254.5" x2="578.5" y2="254.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="272.0" fill="#ff7b72">IDE:</text>
-<text x="582.8" y="272.0" fill="#c9d1d9">VS Code, Jupyter, Vim</text>
+<text x="410.0" y="272.0" fill="#ff7b72">Geo:</text>
+<text x="582.8" y="272.0" fill="#c9d1d9">rasterio, GeoPandas, GDAL, NDVI/NDRE</text>
 <line x1="446.0" y1="268.5" x2="578.5" y2="268.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="300.0" fill="#f0883e" font-weight="bold">Contact</text>
-<line x1="467.6" y1="296.0" x2="899.6" y2="296.0" stroke="#30363d"/>
-<text x="410.0" y="314.0" fill="#ff7b72">Email.Personal:</text>
-<text x="582.8" y="314.0" fill="#c9d1d9">huy.quoc1205@gmail.com</text>
-<line x1="525.2" y1="310.5" x2="578.5" y2="310.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="328.0" fill="#ff7b72">Email.University:</text>
-<text x="582.8" y="328.0" fill="#c9d1d9">quochuy.dinh@student.uts.edu.au</text>
-<line x1="539.6" y1="324.5" x2="578.5" y2="324.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="342.0" fill="#ff7b72">LinkedIn:</text>
-<text x="582.8" y="342.0" fill="#c9d1d9">quochuy-dinh</text>
-<line x1="482.0" y1="338.5" x2="578.5" y2="338.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="356.0" fill="#ff7b72">GitHub:</text>
-<text x="582.8" y="356.0" fill="#c9d1d9">Huydinh1205</text>
-<line x1="467.6" y1="352.5" x2="578.5" y2="352.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="370.0" fill="#ff7b72">HuggingFace:</text>
-<text x="582.8" y="370.0" fill="#c9d1d9">Huydinh1205</text>
-<line x1="503.6" y1="366.5" x2="578.5" y2="366.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
-<text x="410.0" y="384.0" fill="#ff7b72">Portfolio:</text>
-<text x="582.8" y="384.0" fill="#c9d1d9">cv-website-lemon.vercel.app</text>
-<line x1="489.2" y1="380.5" x2="578.5" y2="380.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="286.0" fill="#ff7b72">Web:</text>
+<text x="582.8" y="286.0" fill="#c9d1d9">Next.js, React, FastAPI, Spring Boot</text>
+<line x1="446.0" y1="282.5" x2="578.5" y2="282.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="300.0" fill="#ff7b72">Data:</text>
+<text x="582.8" y="300.0" fill="#c9d1d9">Pandas, NumPy, PostgreSQL, Redis, Docker</text>
+<line x1="453.2" y1="296.5" x2="578.5" y2="296.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="314.0" fill="#ff7b72">IDE:</text>
+<text x="582.8" y="314.0" fill="#c9d1d9">VS Code, Jupyter, Vim</text>
+<line x1="446.0" y1="310.5" x2="578.5" y2="310.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="342.0" fill="#f0883e" font-weight="bold">Contact</text>
+<line x1="467.6" y1="338.0" x2="899.6" y2="338.0" stroke="#30363d"/>
+<text x="410.0" y="356.0" fill="#ff7b72">Email.Personal:</text>
+<text x="582.8" y="356.0" fill="#c9d1d9">huy.quoc1205@gmail.com</text>
+<line x1="525.2" y1="352.5" x2="578.5" y2="352.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="370.0" fill="#ff7b72">Email.University:</text>
+<text x="582.8" y="370.0" fill="#c9d1d9">quochuy.dinh@student.uts.edu.au</text>
+<line x1="539.6" y1="366.5" x2="578.5" y2="366.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="384.0" fill="#ff7b72">LinkedIn:</text>
+<text x="582.8" y="384.0" fill="#c9d1d9">quoc-huy-dinh-773550387</text>
+<line x1="482.0" y1="380.5" x2="578.5" y2="380.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="398.0" fill="#ff7b72">GitHub:</text>
+<text x="582.8" y="398.0" fill="#c9d1d9">Huydinh1205</text>
+<line x1="467.6" y1="394.5" x2="578.5" y2="394.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="412.0" fill="#ff7b72">HuggingFace:</text>
+<text x="582.8" y="412.0" fill="#c9d1d9">Huydinh1205</text>
+<line x1="503.6" y1="408.5" x2="578.5" y2="408.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
+<text x="410.0" y="426.0" fill="#ff7b72">Portfolio:</text>
+<text x="582.8" y="426.0" fill="#c9d1d9">dinhquochuy.vercel.app</text>
+<line x1="489.2" y1="422.5" x2="578.5" y2="422.5" stroke="#343b45" stroke-width="1" stroke-dasharray="1 3"/>
 </g></svg>

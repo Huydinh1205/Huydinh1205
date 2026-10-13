@@ -4,6 +4,7 @@ Build a neofetch-style ASCII portrait card (SVG) from a photo.
 Usage:
     pip install opencv-python numpy
     python build_ascii_card.py /path/to/photo.jpg
+    python build_ascii_card.py --card-only        # keep portrait, refresh info panel
 
 Outputs:
     assets/huy-ascii-card.svg     - the card embedded in the README
@@ -66,30 +67,33 @@ FAMILY = 'ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "DejaVu Sans
 ROWS_INFO = [
     ("sec", "ryan@huy"),
     ("row", "Host", "University of Technology Sydney"),
-    ("row", "Kernel", "BSc Artificial Intelligence (Jul 2025 - now)"),
-    ("row", "Prev", "BSc Computer Science, HCMUT - GPA 3.6/4.0"),
-    ("row", "Role", "Research Assistant - VLM / GAN"),
+    ("row", "Kernel", "B. Artificial Intelligence (2025 - 2027)"),
+    ("row", "Prev", "B. Computer Science, HCMUT - GPA 3.6/4.0"),
+    ("row", "Uptime", "WAM 88.88 - GPA 6.75/7.0"),
+    ("row", "Role", "Data Engineer @ Nallawilli Bunjil"),
+    ("row", "Next", "CV Research Intern @ CSIRO (Nov 2026)"),
     ("row", "Awards", "FEIT Dean's List 2026"),
+    ("row", "Paper", "RallyVLM, DICTA 2026 (under review)"),
     ("row", "Location", "Sydney, NSW, Australia"),
     ("row", "Status", "Open to internships and graduate roles"),
     ("blank",),
     ("sec", "Stack"),
-    ("row", "Languages.Programming", "Python, C++, TypeScript, JavaScript"),
-    ("row", "Languages.Markup", "HTML, CSS, SQL, Markdown"),
+    ("row", "Languages.Programming", "Python, C++, TypeScript, Java, SQL"),
     ("row", "Languages.Real", "Vietnamese, English"),
     ("row", "ML.Frameworks", "PyTorch, Lightning, LangChain, YOLO"),
-    ("row", "Web", "Next.js, React, FastAPI, Flask, Express"),
-    ("row", "Data", "Pandas, NumPy, PostgreSQL, Redis, Docker"),
     ("row", "Research", "VLM, RAG, GAN, Robust CV, Dynamic GNN"),
+    ("row", "Geo", "rasterio, GeoPandas, GDAL, NDVI/NDRE"),
+    ("row", "Web", "Next.js, React, FastAPI, Spring Boot"),
+    ("row", "Data", "Pandas, NumPy, PostgreSQL, Redis, Docker"),
     ("row", "IDE", "VS Code, Jupyter, Vim"),
     ("blank",),
     ("sec", "Contact"),
     ("row", "Email.Personal", "huy.quoc1205@gmail.com"),
     ("row", "Email.University", "quochuy.dinh@student.uts.edu.au"),
-    ("row", "LinkedIn", "quochuy-dinh"),
+    ("row", "LinkedIn", "quoc-huy-dinh-773550387"),
     ("row", "GitHub", "Huydinh1205"),
     ("row", "HuggingFace", "Huydinh1205"),
-    ("row", "Portfolio", "cv-website-lemon.vercel.app"),
+    ("row", "Portfolio", "dinhquochuy.vercel.app"),
 ]
 
 def svg(art):
@@ -131,8 +135,11 @@ def svg(art):
 
 if __name__ == "__main__":
     os.makedirs(OUT_DIR, exist_ok=True)
-    art = asciify(*cutout(PHOTO))
-    open(os.path.join(OUT_DIR, "ascii-portrait.txt"), "w").write("\n".join(art) + "\n")
+    if PHOTO == "--card-only":                     # reuse saved portrait, only refresh the info panel
+        art = open(os.path.join(OUT_DIR, "ascii-portrait.txt")).read().rstrip("\n").split("\n")
+    else:
+        art = asciify(*cutout(PHOTO))
+        open(os.path.join(OUT_DIR, "ascii-portrait.txt"), "w").write("\n".join(art) + "\n")
     open(os.path.join(OUT_DIR, "huy-ascii-card.svg"), "w").write(svg(art))
     print("\n".join(art))
     print("\nwrote assets/huy-ascii-card.svg")
