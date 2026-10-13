@@ -47,40 +47,40 @@ Propose-confirm pipeline: YOLOv11 court homography, player and shuttle tracking 
 </td>
 <td width="50%" valign="top">
 
-### 🤝 [Agent Market](https://github.com/Huydinh1205/mcp_website)
-**Agent-to-agent negotiation marketplace**
+### ☕ [CaféPulse](https://github.com/Huydinh1205/cafepulse)
+**AI morning brief for café owners**
 
-Buyer and seller browser agents haggle over price, quantity, freebies, shipping and coupons through WebMCP tools on `document.modelContext`. Every order still needs a human to confirm.
+Every day at 06:00 a LangGraph ReAct agent on Groq Llama 3.3 70B answers 10 questions per branch (sales, roster, stock, equipment, overnight anomalies) straight from Postgres. Also has a z-score anomaly inbox, streaming Q&A over SSE and Prophet revenue forecasts.
 
-`55 + 16 tests` `9 WebMCP tools` `95k+ products`
+`10 questions × 8 branches` `24-table schema` `5 scheduled jobs`
 
-<sub>OpenAI WebMCP Challenge, team of 2 · Next.js 15 · Spring Boot 3.5 · Azure SQL · [live demo](https://mcp-website-chi.vercel.app/)</sub>
+<sub>FastAPI · LangGraph · Groq · Prophet · PostgreSQL · Redis · Next.js 15 · Docker</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🌾 [Vegetation Stress Early Warning](https://huggingface.co/spaces/Huydinh1205/vegetation-stress-early-warning)
-**Spotting crop stress before it shows**
+### 🎮 [Game Automation & Streaming Tool](https://github.com/Huydinh1205/dota2)
+**Dota 2 live data driving OBS**
 
-Sentinel-2 pipeline over irrigated farmland in Griffith, NSW. Computes NDVI and NDRE and classifies vegetation health with a Random Forest. A quarter of the "healthy" NDVI area already shows an early NDRE stress signal.
+A Game State Integration server takes live Dota 2 data (health, items, abilities, player stats), starts and stops OBS recordings on game events through OBS WebSocket, grabs frames for analysis and processes combat logs. A separate TCP server/client handles low-latency messaging.
 
-`accuracy 0.996` `72k held-out pixels` `NDVI/NDRE r = 0.97`
+`real-time GSI` `OBS WebSocket` `token auth`
 
-<sub>rasterio · GDAL · scikit-learn · Gradio · live on Hugging Face Spaces</sub>
+<sub>Python · obs-websocket-py · OpenCV · mss · [TCP server/client](https://github.com/Huydinh1205/tcp_server_client)</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### 🚗 Smart Parking ALPR
+### 🚗 [Smart Parking ALPR](https://github.com/Huydinh1205/smart_parking)
 **License plates in blur, rain and the dark**
 
-YOLOv11-OBB detection, fine-tuned PARSEQ OCR, ByteTrack temporal voting and Zero-DCE++ low-light enhancement, stress-tested across six CCPD2020 subsets with five ablation configs.
+A frame goes in, a plate string comes out, and the plate becomes a parking check-in or check-out with a fee. YOLOv11s detection, PARSEQ fine-tuned on a 69-character Latin + Chinese charset, Zero-DCE++ for night shots and ByteTrack majority voting across video frames, wrapped in a Django parking-gate app.
 
-`6 robustness subsets` `5 ablations` `ML team lead`
+`57k training images` `OCR val acc 0.96` `ML team lead`
 
-<sub>Team of 3 · PyTorch · YOLOv11-OBB · PARSEQ · ByteTrack · private repo</sub>
+<sub>Team of 3 · PyTorch · YOLOv11 · PARSEQ · ByteTrack · Django</sub>
 
 </td>
 </tr>
@@ -116,9 +116,9 @@ Multi-page Next.js portfolio with resume, projects and research pages, a Resend 
 <summary><b>More projects</b></summary>
 <br>
 
+- **[Agent Market](https://github.com/Huydinh1205/mcp_website)**: OpenAI WebMCP Challenge, team of 2. Buyer and seller browser agents negotiate price, quantity and coupons through WebMCP tools; Spring Boot state machine, 55 + 16 tests ([live demo](https://mcp-website-chi.vercel.app/)).
+- **[Vegetation Stress Early Warning](https://github.com/Huydinh1205/plant_stress)**: Sentinel-2 NDVI/NDRE pipeline over Griffith, NSW with a Random Forest at 0.996 test accuracy ([live app on Hugging Face](https://huggingface.co/spaces/Huydinh1205/vegetation-stress-early-warning)).
 - **[CurricuLLM](https://github.com/VAHPEM/AI_Parent-Teacher_Bridge)**: Cambridge EduX Hackathon 2026, team of 4. LLM-generated curriculum reports, parent-facing AI chat and live translation (React, FastAPI, PostgreSQL).
-- **AI Coffee Shop Manager Dashboard**: one LangChain pipeline for Q&A, revenue summaries, inventory forecasting and scheduled reports, with Redis caching and Docker.
-- **[Game Automation & Streaming Tool](https://github.com/Huydinh1205/dota2)**: TCP, OBS WebSocket and REST API backend for real-time game automation, plus a [TCP server/client](https://github.com/Huydinh1205/tcp_server_client).
 - **[E-Commerce Web App](https://github.com/Huydinh1205/Supermarket-main)**: solo full-stack shop with JWT auth, bcrypt and a 3NF PostgreSQL schema.
 - **[OCR Preprocessing Pipeline](https://github.com/Huydinh1205/paddleOCR_comerdata)**: thresholding, denoising and deskewing, benchmarked against PaddleOCR accuracy.
 - **[Game Telemetry Data Analysis](https://github.com/Huydinh1205/analysis_dota2)**: EDA and statistics on competitive-game telemetry.
